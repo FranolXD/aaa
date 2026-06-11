@@ -235,12 +235,12 @@ namespace SUper_GrA
             switch (OdpJakaGra)
             {
                 case 1:
-                    WybórPoziomuZwyklejGry();
+                    new ZwyklaGraFun().WybórPoziomuZwyklejGry();
                     wybranaGra = new ZwyklaGraFun();
                     wybranaGra.Start();
                     break;
                 case 2:
-                    WybórPoziomuSuperOgGra();
+                    new SuperOgGraPlus().WybórPoziomuSuperOgGra();
                     wybranaGra = new SuperOgGraPlus();
                     wybranaGra.Start();
                     break;

@@ -19,7 +19,7 @@ namespace SUper_GrA
 
         public static int IloscPrzelosowan { get; set; } = 0;
         public static int IloscProbDoPrzelosowania { get; set; }
-        public static void WybórPoziomuSuperOgGra()
+        public void WybórPoziomuSuperOgGra()
         {
             Funkcje.AktualnyTrybGry = "Super OG Gra Plus";
             Funkcje.proba = 0;
@@ -62,7 +62,7 @@ namespace SUper_GrA
             Funkcje.LiczbaPoziomu = 101;
             Funkcje.CyfraKomputera = Funkcje.GeneratorLiczby();
         }
-        private static void SuperOgGra()
+        private  void SuperOgGra()
         {
             Funkcje.AktualnyTrybGry = "Super OG Gra Plus";
 
@@ -88,7 +88,7 @@ namespace SUper_GrA
                 }
                 else if (CyfraGracza == Funkcje.CyfraKomputera)
                 {
-                    new GraDzcs().Wygrana();
+                    base.Wygrana();
                 }
                 else if (CyfraGracza > Funkcje.CyfraKomputera)
                 {

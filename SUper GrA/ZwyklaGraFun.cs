@@ -15,11 +15,11 @@ namespace SUper_GrA
 
         public void Start()
         {
-            WybórPoziomuZwyklejGry();
+           WybórPoziomuZwyklejGry();
         }
         public static bool TrybZakładuWłączony { get; set; } = true;
         public static int Zakład { get; set; }
-        public static void WybórPoziomuZwyklejGry()
+        public void WybórPoziomuZwyklejGry()
         {
             Console.Clear();
             int OdpPoz = Funkcje.PytInt(Funkcje.JakiJęzyk("DifficultyLevels"));
@@ -64,7 +64,7 @@ namespace SUper_GrA
                     break;
             }
         }
-        private static void TrybZakładu()
+        private void TrybZakładu()
         {
             Funkcje.proba = 0;
             if (TrybZakładuWłączony == true)
@@ -85,7 +85,7 @@ namespace SUper_GrA
                 ZwyklaGra();
             }
         }
-        private static void ZwyklaGra()
+        private void ZwyklaGra()
         {
             int CyfraGracza = Funkcje.PytInt(Funkcje.JakiJęzyk("ChooseNumber"));
             if (CyfraGracza < Funkcje.CyfraKomputera)
@@ -109,7 +109,7 @@ namespace SUper_GrA
                 ZwyklaGra();
             }
         }
-        private static void ZwykłaGraZakładu()
+        private void ZwykłaGraZakładu()
         {
 
             if (Funkcje.proba >= Zakład)
@@ -128,7 +128,7 @@ namespace SUper_GrA
                 }
                 else if (CyfraGracza == Funkcje.CyfraKomputera)
                 {
-                    new GraDzcs().Wygrana();
+                    base.Wygrana();
                 }
                 else if (CyfraGracza > Funkcje.CyfraKomputera)
                 {
