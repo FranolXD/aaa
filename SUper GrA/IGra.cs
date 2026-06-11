@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace SUper_GrA
 {
-    internal class Jezyczek
+    internal interface IGra
     {
-        private static char JPolski;
-        
+            string NazwaTrybu { get; }
+
+            void Start();
+       
     }
 }

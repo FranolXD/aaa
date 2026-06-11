@@ -74,13 +74,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gracze.cs" />
-    <Compile Include="GraDzcs.cs" />
     <Compile Include="HalaFejmu.cs" />
-    <Compile Include="IGra.cs" />
     <Compile Include="Jexyczek.cs" />
     <Compile Include="SuperOgGraPlus.cs" />
-    <Compile Include="Wynik.cs" />
     <Compile Include="ZwyklaGraFun.cs" />
     <Compile Include="Funkcje.cs" />
     <Compile Include="Program.cs" />
@@ -88,23 +84,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="HalaFejmu.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="NazwaGracza.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="JAngielski.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="JHiszpański.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Gracze.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
-    <None Include="JPolski.json">
+    <None Include="Jezyczek.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

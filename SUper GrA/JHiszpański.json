@@ -1,0 +1,93 @@
+{
+  "Welcome": "¡Bienvenido al juego SUper GrA!",
+  "HallOfFame": "Tabla de puntuaciones",
+  "Wait": "Presiona R3 + L3 o Enter para continuar xD",
+  "Exit": "Salir",
+  "Language": "Idioma",
+  "MainMenu": "Menú principal \n\n Nuevo juego [ 1 ]\n Tabla de puntuaciones xD [ 2 ]\n Opciones [ 3 ]\n Salir [ 4 ]\n",
+  "NewGame": "Nuevo juego",
+  "Options": "Opciones",
+
+  "TooLittle": [
+    "Demasiado poco",
+    "Un poco más",
+    "Uy, un poco demasiado bajo",
+    "No esta vez, añade un poco más",
+    "Muy pequeño"
+  ],
+
+  "TooMuch": [
+    "Demasiado",
+    "Un poco menos",
+    "Uy, un poco demasiado alto",
+    "No esta vez, resta un poco",
+    "Demasiado, demasiado"
+  ],
+
+  "SetQuestion": "Elige lo que quieres hacer \n\n Cambiar modo apuesta [ 1 ]\n Cambiar idioma [ 2 ]\n Limpiar Hall of Fame [ 3 ]\n",
+
+  "BetOn": "El modo apuesta está activado",
+  "BetOf": "El modo apuesta está desactivado",
+
+  "BadOption": "No existe esa opción",
+
+  "DifficultyLevels": "Niveles de dificultad: \nFácil [ 1 ] \nMedio [ 2 ] \nDifícil [ 3 ] \nCustom ?.? [ 4 ]\nPiensa bien tu elección ;P\n\n",
+
+  "WitchHall": "Elige sala: \nSala del juego normal [ 1 ] \nSala SUPER OG GAME PLUS BIGGA SLAYYY [ 2 ] \n",
+
+  "Reroll": "ATENCIÓN ATENCIÓN el número será sorteado nuevamente pronto\n\n",
+
+  "ChooseNumber": "Elige un número: \n",
+
+  "Range": "Elige el rango en el que quieres adivinar el número",
+
+  "LooseBet": "Perdiste, no lograste adivinar el número dentro del número permitido de intentos\n\n",
+
+  "ChooseGame": "Juego normal [ 1 ] o SUPER OG GAME PLUS BIGGA SLAYYY [ 2 ]",
+
+  "BetChanged": "El modo apuesta ha sido cambiado",
+
+  "BetUnchanged": "El modo apuesta permanece sin cambios",
+
+  "ChangeBet": "¿Quieres cambiar el modo apuesta? [ t / n ]",
+
+  "ChooseVariant": "Elige variante: ",
+
+  "MaxFckUps": "Elige la cantidad máxima de errores antes de que el número sea sorteado nuevamente:\n",
+
+  "BadAnsOG": " \nEste es tu intento número {proba}\nEl número cambiará en {IloscProbDoPrzelosowania - proba}",
+
+  "BadAnsNormalNoBet": "\n Este es tu intento número {proba}\n",
+
+  "GoodAnsNormal": "¡Felicidades! Adivinaste el número en {proba} intentos.\nTiempo de juego: {CzasGry.Elapsed.Seconds} segundos.",
+
+  "BadAnsNormalBet": "\n Este es tu intento número {proba}\nIntentos restantes: {Zakład - proba}",
+
+  "NormalGame": "El modo apuesta está desactivado, cargando juego normal xD",
+
+  "MaxTry": "Introduce el número máximo de intentos:\n",
+
+  "EggAchivment": "\nLogro desbloqueado: Huevo curioso ?.? ",
+
+  "GoodAnsOG": "¡Felicidades! Adivinaste el número en {proba + IloscPrzelosowan * IloscProbDoPrzelosowania} intentos.\nTiempo de juego: {CzasGry.Elapsed.Seconds} segundos.\nCantidad de reinicios: {IloscPrzelosowan}",
+
+  "EnterName": "Introduce tu nombre de jugador: \n\n",
+
+  "HelloName": "Bienvenido ",
+
+  "HallOfFameBetOrNormal": "Tabla de puntuaciones para juego con modo apuesta [ 1 ] o sin modo apuesta [ 2 ]",
+
+  "HallOfFameNolmalNoBet": "Tabla de puntuaciones para juego normal sin modo apuesta",
+
+  "HallOfFameNormalBet": "Tabla de puntuaciones para juego normal con modo apuesta",
+
+  "HallOfFameOG": "Tabla de puntuaciones para SUPER OG GAME PLUS BIGGA SLAYYY",
+
+  "AskName": "Introduce tu nombre de jugador: \n\n",
+
+  "ClrHallQue": "Limpiar el Hall of Fame es irreversible.\nPiénsalo bien antes de hacerlo.\nSi estás seguro, introduce la clave de seguridad:",
+
+  "ClrHallGood": "\n El Hall of Fame ha sido limpiado xD \n",
+
+  "ClrHallBad": "\n NT cerdo mugriento\nLa carpeta System32 ha sido eliminada \n"
+}

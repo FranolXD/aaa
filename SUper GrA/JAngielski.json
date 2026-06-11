@@ -1,0 +1,93 @@
+{
+  "Welcome": "Welcome to the SUper GrA game!",
+  "HallOfFame": "Hall of Fame",
+  "Wait": "Press R3 + L3 or Enter to continue xD",
+  "Exit": "Exit",
+  "Language": "Language",
+  "MainMenu": "Main Menu \n\n New Game [ 1 ]\n Hall of Fame xD [ 2 ]\n Settings [ 3 ]\n Exit [ 4 ]\n",
+  "NewGame": "New Game",
+  "Options": "Options",
+
+  "TooLittle": [
+    "Too little",
+    "A little more",
+    "Oops, a bit too low",
+    "Not this time, add a little more",
+    "Way too small"
+  ],
+
+  "TooMuch": [
+    "Too much",
+    "A little less",
+    "Oops, a bit too high",
+    "Not this time, subtract a little",
+    "Way too much"
+  ],
+
+  "SetQuestion": "Choose what you want to do \n\n Change bet mode [ 1 ]\n Change language [ 2 ]\n Clear Hall of Fame [ 3 ]\n",
+
+  "BetOn": "Bet mode is enabled",
+  "BetOf": "Bet mode is disabled",
+
+  "BadOption": "There is no such option",
+
+  "DifficultyLevels": "Difficulty Levels: \nEasy [ 1 ] \nMedium [ 2 ] \nHard [ 3 ] \nCustom ?.? [ 4 ]\nChoose wisely ;P\n\n",
+
+  "WitchHall": "Choose hall: \nNormal Game Hall [ 1 ] \nSUPER OG GAME PLUS BIGGA SLAYYY Hall [ 2 ] \n",
+
+  "Reroll": "WARNING WARNING the number will be rerolled soon\n\n",
+
+  "ChooseNumber": "Choose a number: \n",
+
+  "Range": "Choose the range in which you want to guess the number",
+
+  "LooseBet": "You lost, you failed to guess the number within the allowed attempts\n\n",
+
+  "ChooseGame": "Normal Game [ 1 ] or SUPER OG GAME PLUS BIGGA SLAYYY [ 2 ]",
+
+  "BetChanged": "Bet mode has been changed",
+
+  "BetUnchanged": "Bet mode remains unchanged",
+
+  "ChangeBet": "Do you want to change bet mode? [ t / n ]",
+
+  "ChooseVariant": "Choose variant: ",
+
+  "MaxFckUps": "Choose the maximum number of mistakes before the guessed number gets rerolled:\n",
+
+  "BadAnsOG": " \nThis is your {proba} attempt\nThe guessed number will reroll in {IloscProbDoPrzelosowania - proba}",
+
+  "BadAnsNormalNoBet": "\n This is your {proba} attempt\n",
+
+  "GoodAnsNormal": "Congratulations! You guessed the number in {proba} attempts.\nGame time: {CzasGry.Elapsed.Seconds} seconds.",
+
+  "BadAnsNormalBet": "\n This is your {proba} attempt\nRemaining attempts: {Zakład - proba}",
+
+  "NormalGame": "Bet mode is disabled, loading normal game xD",
+
+  "MaxTry": "Enter the maximum number of attempts:\n",
+
+  "EggAchivment": "\nAchievement unlocked: Curious Egg ?.? ",
+
+  "GoodAnsOG": "Congratulations! You guessed the number in {proba + IloscPrzelosowan * IloscProbDoPrzelosowania} attempts.\nGame time: {CzasGry.Elapsed.Seconds} seconds.\nNumber of rerolls: {IloscPrzelosowan}",
+
+  "EnterName": "Enter your player name: \n\n",
+
+  "HelloName": "Welcome ",
+
+  "HallOfFameBetOrNormal": "Hall of Fame for game with bet mode [ 1 ] or without bet mode [ 2 ]",
+
+  "HallOfFameNolmalNoBet": "Hall of Fame for normal game without bet mode",
+
+  "HallOfFameNormalBet": "Hall of Fame for normal game with bet mode",
+
+  "HallOfFameOG": "Hall of Fame for SUPER OG GAME PLUS BIGGA SLAYYY",
+
+  "AskName": "Enter your player name: \n\n",
+
+  "ClrHallQue": "Clearing the Hall of Fame is irreversible.\nThink carefully before doing this.\nIf you are sure, enter the security key:",
+
+  "ClrHallGood": "\n Hall of Fame has been cleared xD \n",
+
+  "ClrHallBad": "\n NT you dirty goblin\nSystem32 folder has been deleted \n"
+}
